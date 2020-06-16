@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  background-color: orange; /*kalau error*/
+  background-image: linear-gradient(to bottom right, orange, red);
+}
+
+.container {
+  font-family: productsans;
+  font-size: 130%;
+  margin: 10% 20%;
+  padding: 45px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.tentang {
+  margin: 50px 0;
+}
+
+h1 {
+  background: linear-gradient(to bottom right, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.foto-profil {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+li img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+@font-face {
+  font-family: productsans;
+  src: url(ProductSans-Regular.ttf);
+}
